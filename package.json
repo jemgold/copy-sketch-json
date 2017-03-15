@@ -1,0 +1,26 @@
+{
+  "name": "copy-sketch-json",
+  "version": "1.0.0",
+  "description": "copy Sketch 43 layers as JSON",
+  "main": "plugin.sketchplugin",
+  "scripts": {
+    "build": "skpm build",
+    "watch": "skpm build --watch",
+    "link": "skpm link",
+    "publish": "skpm publish"
+  },
+  "author": "Jon Gold <hello@designedbygold.com> (http://jon.gold)",
+  "license": "MIT",
+  "manifest": "src/manifest.json",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "skpm": "^0.5.5"
+  },
+  "dependencies": {
+    "sketchapp-json-plugin": "^0.0.2"
+  }
+}

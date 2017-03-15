@@ -1,0 +1,19 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Copy as JSON",
+      "identifier": "copy",
+      "script": "./my-command.js",
+      "shortcut": "ctrl shift c"
+    }
+  ],
+  "menu": {
+    "title": "Copy as JSON",
+    "isRoot": "true",
+    "items": [
+      "copy"
+    ]
+  }
+}
